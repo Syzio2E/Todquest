@@ -1,13 +1,13 @@
 .searchContainer{
     width: 418px;
     height: 32px;
-    padding: 2px 16px; /* Simplify padding values */
+    padding: 2px 8px; /* Simplify padding values */
     border-radius: 8px;
     border: 1px solid linear-gradient(0deg, #EEEEEE, #EEEEEE); /* Correct border syntax */
     gap: 8px;
     background: linear-gradient(0deg, #E3E3E3, #E3E3E3);
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 .searchText{

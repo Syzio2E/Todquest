@@ -84,8 +84,9 @@ const Categories = () => {
         <Card/>
         <Card/>
         </div>
-      <ScrollBar/>
+        <ScrollBar/>
       </div>
+     
     </div>
   );
 };

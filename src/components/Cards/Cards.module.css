@@ -6,7 +6,8 @@
     border: 1px;
     background: linear-gradient(0deg, #ECECEC, #ECECEC)
 linear-gradient(0deg, #FFFFFF, #FFFFFF);
-border: 1px solid #ECECEC
+border: 1px solid #ECECEC;
+margin: 10px;
 
 }
 
@@ -59,4 +60,5 @@ color: white;
 margin-top: 40px;
 margin-bottom: 5px;
 border: none;
+margin-left: 15px;
 }

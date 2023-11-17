@@ -20,7 +20,7 @@ const Header = () => {
       <header className={classes.wrapper}>
         <div className='logo'><img src={todLogo} alt='logo'/></div>
         <SearchBox/>
-        <div><button type="button" className="btn btn-danger">Login/Sign Up</button></div>
+        <div><button type="button" >Login/Sign Up</button></div>
       </header>
       <nav className={classes.navbar}>
         <div className={classes.navlinks}>Home</div>

@@ -5,7 +5,7 @@ import SearchIcon from '@mui/icons-material/Search';
 const SearchBox = () => {
   return (
    <div className={classes.searchContainer}>
-    <span><SearchIcon/></span>
+    <div><SearchIcon/></div>
     <input type='text' placeholder='Search For brand,category,coupon'  className={classes.searchText} />
    </div>
   )

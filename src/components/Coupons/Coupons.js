@@ -4,7 +4,9 @@ import classes from './Coupons.module.css'
 import CouponsImage from '../../assets/coupons.png'
 import Bar from '../Bar/Bar'
 import Applicationimage from '../../assets/application download (1).png'
-import TableImage from '../../assets/container.png'
+
+import Table from '../Table/Table'
+
 
 const Coupons = () => {
   return (
@@ -17,9 +19,7 @@ const Coupons = () => {
         <img src={Applicationimage} alt='application'/>
       </div>
       <div className={classes.table}>
-        <div className={classes.createtable}>
-            <img src={TableImage} alt='table'/>
-        </div>
+       <Table/>
       </div>
     </div>
   )
